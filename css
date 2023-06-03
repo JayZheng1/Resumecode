@@ -1,0 +1,91 @@
+body {
+  font-family: 'Manrope', sans-serif;
+  margin: 0;
+}
+
+.container {
+  padding: 30px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+p {
+  width: 50%;
+  margin: 8px;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.divider {
+  border-top: 5px solid #333;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 4px #cacaca;
+}
+
+.divider-2 {
+  border-top: 1px solid #333;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.inline-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style-type: square;
+}
+
+.inline-list li {
+  margin: 20px;
+}
+
+.education-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.education-table td {
+  padding: 10px;
+  vertical-align: top;
+}
+
+.education-table .column1 {
+  width: 150px;
+  font-weight: bold;
+}
+
+.two-column-table {
+  border-collapse: collapse;
+}
+
+.two-column-table td {
+  padding: 10px;
+}
+
+.two-column-table .column1 {
+  width: 150px;
+  font-weight: bold;
+}
+
+.resume-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.resume-table td {
+  padding: 10px;
+  vertical-align: top;
+}
+
+.resume-table .column1 {
+  width: 150px;
+  font-weight: bold;
+}
